@@ -7,7 +7,7 @@ import pyautogui as pag
 
 def connection():
         try:
-                host = '169.254.245.176'
+                host = ''       # use IP address of your server
                 port = 5252
                 global s
                 s = socket.socket()
